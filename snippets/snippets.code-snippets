@@ -1,1 +1,54 @@
-{}
+{
+    "Squelette par défaut" : {
+        "prefix" : "algorithme",
+        "body" : [
+            "ALGORITHME ${1:nom_algo}",
+            "// déclaration des types",
+            "// déclaration des prototypes des fonctions",
+            "LEXIQUE\n\t$4",
+            "DÉBUT\n\t$0",
+            "FIN"
+        ],
+        "description" : "Corps principal"
+    },
+    "Si _ Alors _ FinSi" : {
+        "prefix" : "si",
+        "body" : [
+            "Si ${1:condition} Alors\n\t$0",
+            "FinSi"
+        ],
+        "description" : "Condition Si"
+    },
+    "Si _ Alors _ Sinon" : {
+        "prefix" : "sin",
+        "body" : [
+            "Si ${1:condition} Alors\n\t$2",
+            "Sinon\n\t$0",
+            "FinSi",
+        ],
+        "description" : "Condition Si Sinon"
+    },
+    "Répéter _ Jusqu'à _" : {
+        "prefix" : ["repeter","répéter"],
+        "body" : [
+            "Répéter\n\t$0",
+            "Jusqu'à condition"
+        ],
+        "description" : "Boucle répéter jusqu'à"
+    },
+    "Écrire(\"\")" : {
+        "prefix" : ["ecrire","écrire"],
+        "body" : [
+            "Écrire(\"$0\")",
+        ],
+        "description" : "Écrire un message"
+    },
+    "Lire(\"\")" : {
+        "prefix" : "lire",
+        "body" : [
+            "Lire(\"$0\")",
+        ],
+        "description" : "Lire une valeur"
+    },
+    
+}

@@ -12,7 +12,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "txt",
+        "language": "plaintext",
         "path": "./snippets/snippets.code-snippets"
       }
     ]

@@ -46,7 +46,7 @@
     "Lire(\"\")" : {
         "prefix" : "lire",
         "body" : [
-            "Lire(\"$0\")",
+            "Lire($0)",
         ],
         "description" : "Lire une valeur"
     },

@@ -1,8 +1,9 @@
 {
   "name": "le-french",
-  "displayName": "LE FRENCH",
-  "description": "Écrire simplement du pseudo-code",
+  "displayName": "Le French",
+  "description": "Code snippets for french pseudo-code",
   "version": "0.0.1",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.82.0"
   },

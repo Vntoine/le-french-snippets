@@ -5,11 +5,25 @@
             "ALGORITHME ${1:nom_algo}",
             "// déclaration des types",
             "// déclaration des prototypes des fonctions",
-            "LEXIQUE\n\t$4",
+            "LEXIQUE\n\t$2",
             "DÉBUT\n\t$0",
             "FIN"
         ],
         "description" : "Corps principal"
+    },
+    "Écrire(\"\")" : {
+        "prefix" : ["ecrire","écrire"],
+        "body" : [
+            "Écrire(\"$0\")"
+        ],
+        "description" : "Écrire un message"
+    },
+    "Lire(\"\")" : {
+        "prefix" : "lire",
+        "body" : [
+            "Lire($0)"
+        ],
+        "description" : "Lire une valeur"
     },
     "Si _ Alors _ FinSi" : {
         "prefix" : "si",
@@ -24,9 +38,25 @@
         "body" : [
             "Si ${1:condition} Alors\n\t$2",
             "Sinon\n\t$0",
-            "FinSi",
+            "FinSi"
         ],
         "description" : "Condition Si Sinon"
+    },
+    "Pour i allant de x à y" : {
+        "prefix" : "pour",
+        "body" : [
+            "Pour i allant de $1 à $2 Faire\n\t$0",
+            "FinPour"
+        ],
+        "description" : "Boucle tant que"
+    },
+    "Tant Que _" : {
+        "prefix" : "tant que",
+        "body" : [
+            "Tant Que ${1:condition}\n\t$0",
+            "FinTantQue"
+        ],
+        "description" : "Boucle tant que"
     },
     "Répéter _ Jusqu'à _" : {
         "prefix" : ["repeter","répéter"],
@@ -36,19 +66,4 @@
         ],
         "description" : "Boucle répéter jusqu'à"
     },
-    "Écrire(\"\")" : {
-        "prefix" : ["ecrire","écrire"],
-        "body" : [
-            "Écrire(\"$0\")",
-        ],
-        "description" : "Écrire un message"
-    },
-    "Lire(\"\")" : {
-        "prefix" : "lire",
-        "body" : [
-            "Lire($0)",
-        ],
-        "description" : "Lire une valeur"
-    },
-    
 }

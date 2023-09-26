@@ -40,6 +40,12 @@
         
     FinSi
     ```
+- ### Selon Dans
+    ```
+    Selon valeur Dans
+        : 
+    FinSelon
+    ```
 
 ## Boucles
 - ### Pour i allant de x à y
@@ -64,9 +70,18 @@
 ## Fonction & Procédure
 - ### Créer une fonction
     ```
-    
+    Fonction nom_fonction() : type
+    Lexique
+
+    Début
+        
+    Fin
     ```
 - ### Créer une procédure
     ```
-    
+    Procédure nom_procedure()
+
+    Début
+        
+    Fin
     ```

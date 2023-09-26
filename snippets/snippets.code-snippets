@@ -42,6 +42,14 @@
         ],
         "description" : "Condition Si Sinon"
     },
+    "selon" : {
+        "prefix" : "selon",
+        "body" : [
+            "Selon ${1:valeur} Dans\n\t$2 : $0",
+            "FinSelon"
+        ],
+        "description" : "Condition Selon"
+    },
     "Pour i allant de x à y" : {
         "prefix" : "pour",
         "body" : [
@@ -65,5 +73,24 @@
             "Jusqu'à condition"
         ],
         "description" : "Boucle répéter jusqu'à"
+    },
+    "fonction" : {
+        "prefix" : "fonction",
+        "body" : [
+            "Fonction ${1:nom_fonction}() : ${2:type}",
+            "Lexique\n",
+            "Début\n\t$0",
+            "Fin"
+        ],
+        "description" : "Créer une fonction"
+    },
+    "procedure" : {
+        "prefix" : ["procedure","procédure"],
+        "body" : [
+            "Procédure ${1:nom_procedure}()\n",
+            "Début\n\t$0",
+            "Fin"
+        ],
+        "description" : "Créer une procédure"
     },
 }

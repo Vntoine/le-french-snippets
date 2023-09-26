@@ -79,7 +79,7 @@
         "body" : [
             "Fonction ${1:nom_fonction}() : ${2:type}",
             "Lexique\n",
-            "Début\n\t$0",
+            "Début\n\tRetourner $0",
             "Fin"
         ],
         "description" : "Créer une fonction"

@@ -1,7 +1,7 @@
 <h1 align="center">Le French</h1>
 <h3 align="center">Auto-complétion pour du pseudo-code</h3>
 
-<p align="center">Faciliter la rédaction de pseudo-code dans des documents textes <code>.txt</code>, cette extension couvre une multitude de raccourcis (cf <a href="#Raccourcis">Raccourcis principaux</a>)</p>
+<p align="center">Faciliter la rédaction de pseudo-code dans des documents textes <code>.txt</code>, cette extension couvre une multitude de raccourcis (cf <a href="#-raccourcis-principaux">Raccourcis principaux</a>)</p>
 
 <h2 id="Raccourcis"> Raccourcis principaux</h2>
 

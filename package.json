@@ -3,6 +3,10 @@
   "displayName": "Le French Snippets",
   "description": "Code snippets for french pseudo-code",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vntoine/le-french-snippets"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.82.0"

@@ -58,10 +58,10 @@
         ],
         "description" : "Boucle tant que"
     },
-    "Tant Que _" : {
+    "TantQue _" : {
         "prefix" : "tant que",
         "body" : [
-            "Tant Que ${1:condition}\n\t$0",
+            "TantQue ${1:condition}\n\t$0",
             "FinTantQue"
         ],
         "description" : "Boucle tant que"

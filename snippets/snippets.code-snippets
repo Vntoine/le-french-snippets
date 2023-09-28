@@ -2,12 +2,12 @@
     "Squelette par défaut" : {
         "prefix" : "algorithme",
         "body" : [
-            "ALGORITHME ${1:nom_algo}",
+            "Algorithme ${1:nom_algo}",
             "// déclaration des types",
             "// déclaration des prototypes des fonctions",
-            "LEXIQUE\n\t$2",
-            "DÉBUT\n\t$0",
-            "FIN"
+            "Lexique\n\t$2",
+            "Début\n\t$0",
+            "Fin"
         ],
         "description" : "Corps principal"
     },
@@ -50,10 +50,10 @@
         ],
         "description" : "Condition Selon"
     },
-    "Pour i allant de x à y" : {
+    "Pour i de x à y" : {
         "prefix" : "pour",
         "body" : [
-            "Pour i allant de $1 à $2 Faire\n\t$0",
+            "Pour i de $1 à $2 Faire\n\t$0",
             "FinPour"
         ],
         "description" : "Boucle tant que"

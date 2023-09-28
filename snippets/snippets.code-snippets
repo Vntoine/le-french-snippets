@@ -59,7 +59,7 @@
         "description" : "Boucle tant que"
     },
     "TantQue _" : {
-        "prefix" : "tant que",
+        "prefix" : "tantque",
         "body" : [
             "TantQue ${1:condition}\n\t$0",
             "FinTantQue"

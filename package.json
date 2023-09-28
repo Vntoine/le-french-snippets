@@ -2,8 +2,8 @@
   "name": "le-french-snippets",
   "displayName": "Le French Snippets",
   "description": "Code snippets for french pseudo-code",
-  "publisher" : "MVZLT",
-  "version": "1.0.0",
+  "publisher": "MVZLT",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Vntoine/le-french-snippets"
